@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Malioboro | Yogyakarta</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #faf7f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #7a4a2e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7a4a2e;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 10px;
+      margin: 10px 0;
+      display: block;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #c4a484;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #c4a484;
+      color: white;
+    }
+
+    footer {
+      background-color: #7a4a2e;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Wisata Malioboro</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#facilities">Fasilitas</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#pricing">Harga</a></li>
+      <li><a href="#maps">Lokasi</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section id="about">
+    <h2>Tentang Malioboro</h2>
+    <p>
+      Malioboro merupakan kawasan wisata kota paling terkenal di Yogyakarta.
+      Tempat ini dikenal dengan <strong>suasana jalan yang ramai, pusat belanja batik,
+      serta kuliner khas Jogja</strong>.
+    </p>
+    <p>
+      <mark>Malioboro menjadi ikon wisata kota yang selalu ramai dikunjungi wisatawan.</mark>
+    </p>
+  </section>
+
+  <section id="facilities">
+    <h2>Fasilitas Wisata</h2>
+    <ul>
+      <li>Area parkir kendaraan</li>
+      <li>Toko suvenir dan batik</li>
+      <li>Kuliner khas Yogyakarta</li>
+      <li>Becak dan andong</li>
+      <li>Spot foto malam hari</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Galeri & Media</h2>
+
+    <!-- GAMBAR -->
+    <img src="media/malioboro1.jpg" alt="Suasana Malioboro siang hari">
+    <img src="media/malioboro2.jpg" alt="Suasana Malioboro malam hari">
+
+    <!-- VIDEO -->
+    <h3>Video Suasana Malioboro</h3>
+    <video controls width="100%">
+      <source src="media/video.mp4" type="video/mp4">
+    </video>
+
+    <!-- AUDIO -->
+    <h3>Audio Suasana Malioboro</h3>
+    <audio controls>
+      <source src="media/untukku.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section id="pricing">
+    <h2>Biaya & Harga</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Kategori</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Parkir Motor</td>
+          <td>Rp 2.000</td>
+        </tr>
+        <tr>
+          <td>Parkir Mobil</td>
+          <td>Rp 5.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" style="color:red;">
+            <strong>Catatan:</strong> Harga dapat berubah sewaktu-waktu
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <section id="maps">
+    <h2>Lokasi Malioboro</h2>
+    <iframe
+      src="https://www.google.com/maps?q=Malioboro,Yogyakarta&output=embed"
+      width="100%"
+      height="400"
+      style="border:0; border-radius:12px;"
+      loading="lazy">
+    </iframe>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2023 Wisata Malioboro | Yogyakarta</p>
+</footer>
+
+</body>
+</html>
